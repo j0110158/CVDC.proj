@@ -48,6 +48,9 @@ nav {
 ul {
    text-align: center;
    list-style-type: none;
+   overflow: hidden;
+   margin: 1;   
+
 }
 
 li {
