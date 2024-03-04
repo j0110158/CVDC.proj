@@ -43,6 +43,30 @@ img {
     text-align: center;
 }
 
+nav {
+    box-sizing: border-box;
+    height: 50px;
+}
+
+ul {
+    position:relative;
+    right: 180px;
+    padding: 15px;
+    color: white;
+    letter-spacing: 20px;
+}
+
+li {
+    display: inline;
+    font-size: 30px;
+    position: relative;
+    padding-right: 40px;
+}
+
+.homeButton2 {
+    padding-left: 200px;
+}
+
 .introTxtC{
     box-sizing: border-box;
     color: white;
