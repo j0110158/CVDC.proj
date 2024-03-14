@@ -181,7 +181,7 @@ body {
 }
 .servicesOption1 {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 17em 17em 17em 17em;
   text-align: center;
   margin: 5% 3%;
   column-gap: 2em;
@@ -193,7 +193,7 @@ body {
 }
 
 .loanMainM {
-  background: #A6BEAC;
+  background: #a6beac68;
   height: 50vh;
 }
 .loansPageO {
@@ -239,7 +239,7 @@ body {
 }
 .infoCOL {
   background-color: #A6BEAC;
-  text-align: left;
+  text-align: justify;
   width: 40em;
   margin: 3% 25%;
   padding: 5% 10%;
@@ -252,4 +252,18 @@ body {
     background-attachment: fixed;
     background-size: cover;
     min-height: 100vh;
-} 
+}
+.infoCt {
+  display: grid;
+  grid-template-columns: 15em 15em 15em;
+  margin-left: 2em;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 18em;
+  font-size: 158%;
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: black 5px 3px 5px;
+}
