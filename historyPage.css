@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D7D0C8;
+}
+
+.topNav {
+    background-color: darkgreen;
+}
+.topNavO {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.topNavBtn {
+    color: white;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    font-size: 1.8em;
+    padding-top: 0.7em;
+    position: relative;
+    right: 2em;
+    text-shadow: black 0px 3px 4px;
+}
+
+.historyTitle {
+    text-align: center;
+    font-size: 60px;
+    color: #064004;
+    position: relative;
+    top: 20px;
+    font-family: "Alike Angular", serif;
+    font-weight: 400;
+    font-style: normal;
+}
