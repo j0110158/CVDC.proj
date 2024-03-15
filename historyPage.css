@@ -45,20 +45,12 @@ body {
     height: 100vh;
 }
 
-.line {
-    position: relative;
-    top: 120px;
-    width: 2px;
-    height: 100%;
-    background-color: #064004;
-}
-
 .events {
     display: flex;
     flex-direction:column;
 }
 
-.event1 {
+.event {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -72,8 +64,14 @@ body {
     margin-right: 20px;
 }
 
+.line {
+    width: 3px;
+    height: 50px;
+    background-color: #064004;
+}
+
 .event1 {
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .event1title {
@@ -90,4 +88,5 @@ body {
     font-weight: 400;
     font-style: normal;
     text-align: justify;
+    margin-bottom: 0;
 }
