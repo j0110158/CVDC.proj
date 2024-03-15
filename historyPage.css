@@ -37,3 +37,57 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+.timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.line {
+    position: relative;
+    top: 120px;
+    width: 2px;
+    height: 100%;
+    background-color: #064004;
+}
+
+.events {
+    display: flex;
+    flex-direction:column;
+}
+
+.event1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #064004;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.event1 {
+    max-width: 200px;
+}
+
+.event1title {
+    font-size: 30px;
+    margin-top: 0;
+    font-family: "Alike Angular", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+}
+
+.event1descrip {
+    font-family: "Alike Angular", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+}
