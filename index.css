@@ -168,6 +168,9 @@ body {
   box-shadow: rgba(0, 0, 0, 0.526) 1px 3px 5px;
   background-color: #a6beac82;
 }
+.servicesPageM1 {
+  height: 100vh;
+}
 
 .servicesPageO {
   font-family: "Cardo", serif;
@@ -184,7 +187,7 @@ body {
   grid-template-columns: 17em 17em 17em 17em;
   text-align: center;
   margin: 5% 3%;
-  column-gap: 2em;
+  column-gap: 2.1em;
 }
 .column {
   border-radius: 10px;
@@ -193,8 +196,9 @@ body {
 }
 
 .loanMainM {
+  display: grid;
   background: #a6beac68;
-  height: 50vh;
+  height: 100vh;
 }
 .loansPageO {
   font-family: "Cardo", serif;
@@ -211,20 +215,25 @@ body {
   grid-template-columns: 23em 23em 23em;
   text-align: center;
   margin: 5% 3%;
-  column-gap: 2em;
+  column-gap: 2.6em;
 }
 
 .columnL {
   border-radius: 10px;
   padding-bottom: 20em;
   border: rgba(22, 83, 21, 0.153) solid 1px;
+  color: white;
 }
 .columnL:hover {
   box-shadow: black 1px 3px 6px;
 }
+a {
+  text-decoration: none;
+}
 
-.COL {
+.COLM {
   height: 100vh;
+  background: #D7D0C8;
 }
 .titleCOL {
   text-align: center;
@@ -248,10 +257,10 @@ body {
 
 .contactF {
   background: url(sectionCol.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
 }
 .infoCt {
   display: grid;
@@ -266,4 +275,20 @@ body {
   font-weight: 400;
   font-style: normal;
   text-shadow: black 5px 3px 5px;
+}
+
+.bck2top {
+  position: fixed;
+  bottom: 20px;
+  float: right;
+  left: 95%;
+  background-color: rgba(0, 0, 0, 0.429);
+  color: white;
+  padding: 0.5%;
+  font-size: 100%;
+  border-radius: 4px;
+}
+.bck2top:hover {
+  background-color: #a6beac4d;
+  color: #a6beac4d;
 }
