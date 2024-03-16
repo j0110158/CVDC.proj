@@ -1,0 +1,294 @@
+body {
+    scroll-behavior: smooth;
+    width: 100%;
+    background-color: #D7D0C8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.CVDClogo {
+    display: none;
+    float: left;
+    box-sizing: border-box;
+    width: 30em;
+    height: 30em;
+    position: relative;
+    top: 3em;
+}
+
+@media only screen and (min-width: 768px) {
+    .CVDClogo {
+        display: block;
+    }
+}
+
+.fixed-bg {
+    background: url(CVDC-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.topnav{
+    overflow: hidden;
+  }
+.topnav a {
+  float: left;
+  display: block;
+  position: relative;
+  margin-left: 10%;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 150%;
+  font-family: "Gideon Roman", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.topnav a:hover:not(:first-child) {
+  color: white;
+  text-shadow: white 1px 1px 5px;
+}
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .topnav a {
+    font-size: 150%;
+    margin-left: 8%;
+  }
+  .CVDClogo {
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    top: 5em;
+    width: 25em;
+    height: 25em;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .topnav a {
+    font-size: 150%;
+    margin-left: 6%;
+  }
+  .CVDClogo {
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    top: 5em;
+    width: 25em;
+    height: 25em;
+  }
+}
+@media screen and (max-width: 900px) {
+  .topnav a {
+    font-size: 140%;
+    margin-left: 6%;
+  }
+  .CVDClogo {
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    top: 5em;
+    width: 23em;
+    height: 23em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a{
+    display: none;
+  }
+  .topnav a.icon{
+    font-size: 200%;
+    display: block;
+    margin-left: 7%;
+    right: 0;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .responsive a {
+    float: none;
+    display: block;
+    margin-left: 5%;
+    padding-bottom: 3%;
+  }
+}
+
+.introTxtC {
+  font-size: 3.5em;
+  font-family: "Koulen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1;
+  color: white;
+  text-shadow: black 1px 3px 5px;
+  margin: 15%;
+  text-align: left;
+}
+.introTxt3 {
+  font-family: "Allan", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.5em;
+  line-height: 3;
+}
+.homeButton {
+  position: relative;
+  left: 50%;
+  font-family: "Cardo", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25%;
+  color: white;
+  text-decoration: none;
+  text-shadow: black 2px 1px 3px;
+  background-color: #06400488;
+  border: rgba(15, 84, 11, 0.432) 1px solid;
+  padding: 1%;
+  border-radius: 10px;
+}
+.homeButton:hover {
+  box-shadow: rgba(0, 0, 0, 0.526) 1px 3px 5px;
+  background-color: #a6beac82;
+}
+.servicesPageM1 {
+  height: 100vh;
+}
+
+.servicesPageO {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 300%;
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+  text-shadow: black 5px 1px 6px;
+}
+.servicesOption1 {
+  display: grid;
+  grid-template-columns: 17em 17em 17em 17em;
+  text-align: center;
+  margin: 5% 3%;
+  column-gap: 2.1em;
+}
+.column {
+  border-radius: 10px;
+  padding-bottom: 20em;
+  border: #8b9f9085 solid 1px;
+}
+
+.loanMainM {
+  display: grid;
+  background: #a6beac68;
+  height: 100vh;
+}
+.loansPageO {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 300%;
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+  text-shadow: black 5px 1px 6px;
+}
+.loansOption {
+  display: grid;
+  grid-template-columns: 23em 23em 23em;
+  text-align: center;
+  margin: 5% 3%;
+  column-gap: 2.6em;
+}
+
+.columnL {
+  border-radius: 10px;
+  padding-bottom: 20em;
+  border: rgba(22, 83, 21, 0.153) solid 1px;
+  color: white;
+}
+.columnL:hover {
+  box-shadow: black 1px 3px 6px;
+}
+a {
+  text-decoration: none;
+}
+
+.COLM {
+  height: 100vh;
+  background: #D7D0C8;
+}
+.titleCOL {
+  text-align: center;
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 300%;
+  text-align: center;
+  color: white;
+  padding-top: 1em;
+  text-shadow: black 5px 1px 6px;
+}
+.infoCOL {
+  background-color: #A6BEAC;
+  text-align: justify;
+  width: 40em;
+  margin: 3% 25%;
+  padding: 5% 10%;
+  border-radius: 10px;
+}
+
+.contactF {
+  background: url(sectionCol.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+.infoCt {
+  display: grid;
+  grid-template-columns: 15em 15em 15em;
+  margin-left: 2em;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 18em;
+  font-size: 158%;
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: black 5px 3px 5px;
+}
+
+.bck2top {
+  position: fixed;
+  bottom: 20px;
+  float: right;
+  left: 95%;
+  background-color: rgba(0, 0, 0, 0.429);
+  color: white;
+  padding: 0.5%;
+  font-size: 100%;
+  border-radius: 4px;
+}
+.bck2top:hover {
+  background-color: #a6beac4d;
+  color: #a6beac4d;
+}
