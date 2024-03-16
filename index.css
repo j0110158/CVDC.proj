@@ -212,10 +212,10 @@ body {
 }
 .loansOption {
   display: grid;
-  grid-template-columns: 23em 23em 23em;
+  grid-template-columns: 20em 20em 20em;
   text-align: center;
-  margin: 5% 3%;
-  column-gap: 2.6em;
+  margin: 5% 8%;
+  column-gap: 3em;
 }
 
 .columnL {
@@ -225,7 +225,7 @@ body {
   color: white;
 }
 .columnL:hover {
-  box-shadow: black 1px 3px 6px;
+  box-shadow: rgba(0, 0, 0, 0.500) 5px 3px 10px;
 }
 a {
   text-decoration: none;

@@ -1,0 +1,40 @@
+body {
+    background-color: #D7D0C8;
+    margin: 0;
+}
+.productiveC {
+    display: flex;
+    margin-top: 10%;
+}
+.product_img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.infoC {
+    width: 70%;
+}
+.infoTxtC {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;;
+    color: white;
+    text-align: end;
+    text-shadow: rgba(0, 0, 0, 0.500) 5px 1px 3px;
+    padding: 2% 5%;
+}
+.infoTxtO {
+    background-color: #A6BEAC;
+    margin-left: 10%;
+    padding-bottom: 20%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.inftoTxtI {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5%;
+    font-size: 150%;
+}
