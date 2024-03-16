@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D7D0C8;
+}
+
+.topNav {
+    background-color: darkgreen;
+}
+.topNavO {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.topNavBtn {
+    color: white;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    font-size: 1.8em;
+    padding-top: 0.7em;
+    position: relative;
+    right: 2em;
+    text-shadow: black 0px 3px 4px;
+}
+
+.historyTitle {
+    text-align: center;
+    font-size: 60px;
+    color: #064004;
+    position: relative;
+    top: 20px;
+    font-family: "Alike Angular", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.events {
+    display: flex;
+    flex-direction:column;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #064004;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.line {
+    width: 3px;
+    height: 50px;
+    background-color: #064004;
+}
+
+.event1 {
+    max-width: 300px;
+}
+
+.event1title {
+    font-size: 30px;
+    margin-top: 0;
+    font-family: "Alike Angular", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+}
+
+.event1descrip {
+    font-family: "Alike Angular", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    margin-bottom: 0;
+}
