@@ -1,0 +1,53 @@
+body {
+    background-color: #D7D0C8;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+.providentialPageC {
+    display: flex;
+    margin-top: 2.5%;
+}
+
+.providential_img {
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.500) 2px 8px 4px;
+}
+.providential_titleTxt {
+}
+.pdt_Txt {
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 220%;
+    color: white;
+    text-align: left;
+    padding: 4% 7%;
+    text-shadow: rgba(0, 0, 0, 0.500) 5px 1px 3px;
+    margin-top: 10%;
+    background-color: #A6BEAC;
+    width: 70%;
+}
+ol {
+    list-style-type: lower-alpha;
+    font-size: 120%;
+}
+.btnBack {
+    color: white;
+    font-size: 120%;
+    padding: 1%;
+    padding-left: 3%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-top: 10%;
+    margin-left: 85%;
+    text-align: left;
+    background-color: #064004;
+}
+.btnBack:hover {
+    background-color: #A6BEAC;
+}
