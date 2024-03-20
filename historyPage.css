@@ -64,7 +64,7 @@ body {
             }
             .entryTitle {
                 font-size: 32px;
-                margin-bottom: 12px;
+                margin-bottom: 15px;
                 position: relative;
                 color: #064004;
                 &:before {
