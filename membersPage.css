@@ -7,7 +7,7 @@ body {
 }
 
 .topNav {
-    background-color: darkgreen;
+    background-color:#064004;
 }
 .topNavO {
     font-family: "Cardo", serif;
@@ -30,18 +30,36 @@ body {
 }
 
 .apply-nav {
-    margin-top: 20px;
+    margin-top: -3.5%;
 }
 
 .apply-nav a {
     padding: 10px 20px;
-    background-color: darkgreen;
+    background-color: #064004;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    margin: 0 10px;
+    margin-left: 46%;
+    margin-top: 40%;
 }
 
 .apply-nav a:hover {
     background-color: green;
 }
+
+.ApplicationRequirements {
+    margin: 5px;
+    border: 1px solid #000;
+    float: left;
+    width: 180px;
+}
+
+.ApplicationRequirements:hover {
+    border: 1px solid #777;
+}
+
+.ApplicationRequirements img {
+    width: 100%;
+    height: auto;
+}
+
