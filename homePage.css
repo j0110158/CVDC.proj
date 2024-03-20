@@ -1,28 +1,227 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Amiri", serif;
+}
+body{
     background-color: #D7D0C8;
 }
+.heading1{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    top: 10%;
+    font-size: 50px;
+    color: #064004;
+    left: 10%;
+}
+.container1{
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 90%;
+    height: 60%;
+}
+.image1{
+    display: flex;
+    position: relative;
+    background-color: #092b12;
+    width: 50%;
+    height: 100%;
+}
+.paragraph1{
+    display: flex;
+    position: relative;
+    padding: 15px;
+    width: 50%;
+    font-size: 25px;
+    align-items: center;
+}
+.welcome_paragraph{
+    text-align: justify;
+}
+.heading2{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    top: 90%;
+    left: 70%;
+    font-size: 50px;
+    color: #064004;
+}
 
-.topNav {
-    background-color: darkgreen;
+.container2{
+    display: flex;
+    position: absolute;
+    background-color: #A6BEAC;
+    height: 60%;
+    left: 5%;
+    top: 100%;
+    width: 90%;
+    border-radius: 20px;
 }
-.topNavO {
-    font-family: "Cardo", serif;
-    font-weight: 400;
-    font-style: normal;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+
+.paragraph2{
+    display: flex;
+    position: relative;
+    font-size: 25px;
+    width: 50%;
+    padding: 40px;
+    align-items: center;
 }
-.topNavBtn {
-    color: white;
-    color: white;
-    text-decoration: none;
-    text-align: center;
+.CVDC_desc{
+    text-align: justify;
+}
+
+.image2{
+    display: flex;
     position: relative;
-    font-size: 1.8em;
-    padding-top: 0.7em;
+    background-color: #092b12;
+    width: 50%;
+    height: 100%;
+}
+.container3{
+    display: flex;
+    position: absolute;
+    background-color: #A6BEAC;
+    height: 60%;
+    left: 5%;
+    top: 180%;
+    width: 43%;
+    border-radius: 20px;
+}
+.heading3{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    width: 90%;
+    top: 170%;
+    left: 5%;
+    font-size: 30px;
+    color: #064004;
+    line-height: 18px;
+}
+
+.paragraph3{
+    display: flex;
     position: relative;
-    right: 2em;
-    text-shadow: black 0px 3px 4px;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+}
+.cooperative_desc{
+    text-align: justify;
+    word-spacing: 6px;
+}
+.p2_sub{
+    font-size: 20px;
+}
+
+.container4{
+    display: flex;
+    position: absolute;
+    background-color: #A6BEAC;
+    height: 60%;
+    left: 53%;
+    top: 180%;
+    width: 43%;
+    border-radius: 20px;
+}
+
+.paragraph4{
+    display: flex;
+    position: relative;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.gov_desc{
+    text-align: justify;
+}
+
+.container5{
+    display: flex;
+    position: absolute;
+    background-color: #092b12;
+    height: 60%;
+    left: 5%;
+    top: 250%;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.heading4{
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    top: 320%;
+    left: 55%;
+    font-size: 50px;
+    color: #064004;
+}
+
+.container6{
+    display: flex;
+    position: absolute;
+    background-color: #A6BEAC;
+    height: 60%;
+    left: 5%;
+    top: 330%;
+    width: 90%;
+    border-radius: 20px;
+}
+.image3{
+    display: flex;
+    position: relative;
+    background-color: #092b12;
+    width: 50%;
+    height: 100%;
+}
+.paragraph5{
+    display: flex;
+    position: relative;
+    width: 50%;
+    font-size: 20px;
+    padding: 10px;
+    align-items: center;
+    font-size: 25px;
+}
+.principle_desc{
+    text-align: justify;
+}
+
+.container7{
+    display: flex;
+    position: absolute;
+    height: 60%;
+    left: 5%;
+    top: 400%;
+    width: 90%;
+    border-radius: 20px;
+    justify-content: center;
+}
+.principle_list{
+    width: 70%;
+    font-size: 25px;
+}
+.p_heading{
+    font-weight: 800;
+    color: #064004;
+    margin: 10px;
+}
+.p_paragraph{
+    text-align: justify;
+    background-color: #A6BEAC;
+    padding: 19px;
 }
