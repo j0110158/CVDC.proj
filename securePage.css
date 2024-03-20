@@ -1,0 +1,52 @@
+body {
+    background-color: #D7D0C8;
+    margin: 0;
+}
+.securePageC {
+    display: flex;
+    margin-top: 10%;
+}
+.product_img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    padding-top: 4.2%;
+}
+.infoC {
+    width: 70%;
+}
+.infoTxtC {
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 220%;
+    color: white;
+    text-align: end;
+    text-shadow: rgba(0, 0, 0, 0.500) 5px 1px 3px;
+    padding: 2% 5%;
+}
+.infoTxtO {
+    background-color: #A6BEAC;
+    margin-left: 10%;
+    box-shadow: rgba(0, 0, 0, 0.500) 1px 4px 5px;
+}
+.inftoTxtI {
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 2%;
+    font-size: 100%;
+}
+li {
+    list-style-type: lower-alpha;
+}
+.btnBack {
+    color: white;
+    font-size: 190%;
+    margin-left: 90%;
+    padding: 1%;
+    text-align: left;
+}
+.btnBack:hover {
+    text-shadow: rgba(0, 0, 0, 0.500) 1px 3px 5px;
+}
