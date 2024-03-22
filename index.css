@@ -15,10 +15,9 @@ body {
     display: none;
     float: left;
     box-sizing: border-box;
-    width: 30em;
-    height: 30em;
-    position: relative;
-    top: 3em;
+    width: 35%;
+    height: 35%;
+    margin-top: 5%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -67,9 +66,9 @@ body {
     float: left;
     box-sizing: border-box;
     position: relative;
-    top: 5em;
-    width: 25em;
-    height: 25em;
+    top: 5%;
+    width: 40%;
+    height: 40%;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -98,6 +97,12 @@ body {
     top: 3em;
     width: 23em;
     height: 23em;
+  }
+  .homeButton {
+    margin: 30%;
+  }
+  .introTxtC {
+    
   }
 }
 
@@ -149,25 +154,7 @@ body {
   font-size: 50%;
   line-height: 3;
 }
-.homeButton {
-  position: relative;
-  left: 50%;
-  font-family: "Cardo", serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 25%;
-  color: white;
-  text-decoration: none;
-  text-shadow: black 2px 1px 3px;
-  background-color: #06400488;
-  border: rgba(15, 84, 11, 0.432) 1px solid;
-  padding: 1%;
-  border-radius: 10px;
-}
-.homeButton:hover {
-  box-shadow: rgba(0, 0, 0, 0.526) 1px 3px 5px;
-  background-color: #a6beac82;
-}
+
 .servicesPageM1 {
   height: 100vh;
 }
