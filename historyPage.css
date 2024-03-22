@@ -74,6 +74,9 @@ body {
                 margin-bottom: 15px;
                 position: relative;
                 color: #064004;
+                font-family: "Alegreya SC", serif;
+                font-weight: 400;
+                font-style: normal;
                 &:before {
                     content: '';
                     position: absolute;
@@ -99,6 +102,9 @@ body {
                 margin-bottom: 12px;
                 position: relative;
                 color: #064004;
+                font-family: "Alegreya SC", serif;
+                font-weight: 400;
+                font-style: normal;
                 &:before {
                     content: '';
                     position: absolute;
@@ -124,6 +130,9 @@ body {
                 p {
                     line-height: 1.4em;
                     margin-bottom: 50px;
+                    font-family: "Amiri", serif;
+                    font-weight: 400;
+                    font-style: normal;
                 }
             }
             &:nth-child(2n) {
@@ -148,7 +157,7 @@ body {
     padding-top: 100px;
     padding-left: 50px;
     padding-right: 50px;
-    height: 118vh;
+    height: 115vh;
   }
   
   .gridContainer {
@@ -159,7 +168,7 @@ body {
   }
   
   .gridItem {
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     max-width: 200%;
     background-color: #D7D0C8;
@@ -176,13 +185,20 @@ body {
   
   .gridTitle {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 40px;
+    font-family: "Alegreya SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #064004;
   }
   
   .gridContent {
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     padding: 10px;
     margin-top: 5px;
+    font-family: "Amiri", serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
