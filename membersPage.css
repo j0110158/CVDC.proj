@@ -48,14 +48,14 @@ body {
 }
 
 .ApplicationRequirements {
-    margin: 5px;
-    border: 1px solid #000;
+    margin: 5%;
+    border: 1px solid #D7D0C8;
     float: left;
-    width: 180px;
+    width: 600px;
 }
 
 .ApplicationRequirements:hover {
-    border: 1px solid #777;
+    border: 1px solid #000;
 }
 
 .ApplicationRequirements img {
@@ -63,3 +63,78 @@ body {
     height: auto;
 }
 
+.desc {
+    text-align: center;
+    font-size: 200%;
+    font-family: Georgia, serif;
+}
+
+.welcomemembers h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #064004;
+    margin-bottom: -1.1%;
+    font-family: Garamond, serif;
+}
+
+.welcomemembers h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #064004;
+    margin-bottom: -5.20%;
+    font-family: Garamond, serif;
+}
+
+.minimum h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #064004;
+    font-family: Garamond, serif;
+    margin-bottom: -2%;
+}
+
+.minimum h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #064004;
+    font-family: Garamond, serif;
+}
+
+.picture1 {
+    background-position: right bottom, top left;
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 100%;
+
+}
+
+.regular {
+    background-color: #064004;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    width: 40%;
+    margin-left: 10%;
+}
+
+.container {
+    text-align: center;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.associate {
+    background-color: #064004;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    width: 40%;
+    margin-left: 10%;
+}
+
+.container2 {
+    text-align: center;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.minimumshare {
+    float: left;
+}
