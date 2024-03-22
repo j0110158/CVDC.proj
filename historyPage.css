@@ -1,3 +1,10 @@
+body {
+    background-color: #D7D0C8;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .topNav {
     background-color: darkgreen;
 }
@@ -32,16 +39,16 @@
     font-style: normal;
 }
 
-body {
+.historyContent {
     background-color: #D7D0C8;
-    min-height: 100vh;
+    height: 100vh;
     margin: 0;
     &:before {
         content: '';
         position: absolute;
         top: 253px;
         left: 50%;
-        bottom: -300%;
+        height: 1000px;
         transform:translate(-50%);
         width: 4px;
         background-color:#064004;
@@ -134,3 +141,42 @@ body {
         }
     }
 }
+
+.gridTable {
+    background-color: #A6BEAC;
+    margin: 20px 1in;
+    border: 2px solid black;
+    padding: 0.5in;
+    height: 100vh;
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2px;
+  }
+  
+  .gridItem {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .gridImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .gridTitle {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .gridContent {
+    font-size: 16px;
+    text-align: center;
+  }
