@@ -95,7 +95,7 @@ body {
     float: left;
     box-sizing: border-box;
     position: relative;
-    top: 5em;
+    top: 3em;
     width: 23em;
     height: 23em;
   }
@@ -132,7 +132,7 @@ body {
 }
 
 .introTxtC {
-  font-size: 3.5em;
+  font-size: 370%;
   font-family: "Koulen", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -146,7 +146,7 @@ body {
   font-family: "Allan", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 0.5em;
+  font-size: 50%;
   line-height: 3;
 }
 .homeButton {
@@ -184,10 +184,11 @@ body {
 }
 .servicesOption1 {
   display: grid;
-  grid-template-columns: 17em 17em 17em 17em;
+  grid-template-columns: 20% 20% 20% 20%;
   text-align: center;
-  margin: 5% 3%;
-  column-gap: 2.1em;
+  margin-left: 10%;
+  margin-top: 5%;
+  column-gap: 3.2%;
 }
 .column {
   border-radius: 10px;
@@ -197,7 +198,7 @@ body {
 
 .loanMainM {
   display: grid;
-  background: #a6beac68;
+  background: #D7D0C8;
   height: 100vh;
 }
 .loansPageO {
@@ -212,10 +213,10 @@ body {
 }
 .loansOption {
   display: grid;
-  grid-template-columns: 20em 20em 20em;
+  grid-template-columns: 30% 30% 30%;
   text-align: center;
   margin: 5% 8%;
-  column-gap: 3em;
+  column-gap: 4%;
 }
 
 .columnL {
@@ -249,9 +250,10 @@ a {
 .infoCOL {
   background-color: #A6BEAC;
   text-align: justify;
-  width: 40em;
+  width: 60%;
+  overflow: auto;
   margin: 3% 25%;
-  padding: 5% 10%;
+  padding: 3% 5%;
   border-radius: 10px;
 }
 
@@ -264,12 +266,12 @@ a {
 }
 .infoCt {
   display: grid;
-  grid-template-columns: 15em 15em 15em;
+  grid-template-columns: 32% 32% 32%;
   margin-left: 2em;
   text-align: center;
   color: white;
   position: relative;
-  top: 18em;
+  top: 70%;
   font-size: 158%;
   font-family: "Cardo", serif;
   font-weight: 400;
