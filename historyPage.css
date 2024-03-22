@@ -41,7 +41,7 @@ body {
 
 .historyContent {
     background-color: #D7D0C8;
-    height: 100vh;
+    height: 200vh;
     margin: 0;
     &:before {
         content: '';
@@ -148,6 +148,7 @@ body {
     border: 2px solid black;
     padding: 0.5in;
     height: 100vh;
+    margin: 0;
   }
   
   .gridContainer {
