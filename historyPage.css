@@ -41,14 +41,14 @@ body {
 
 .historyContent {
     background-color: #D7D0C8;
-    height: 250vh;
+    height: 200vh;
     margin: 0;
     &:before {
         content: '';
         position: absolute;
         top: 253px;
         left: 50%;
-        height: 1000px;
+        height: 820px;
         transform:translate(-50%);
         width: 4px;
         background-color:#064004;
@@ -127,12 +127,41 @@ body {
 
             .historyBody {
                 color:#064004;
+                position: relative;
+                right: 80px;
                 p {
                     line-height: 1.4em;
-                    margin-bottom: 50px;
+                    margin-bottom: 130px;
                     font-family: "Amiri", serif;
                     font-weight: 400;
                     font-style: normal;
+                    text-align: justify;
+                    width: 400px;
+                }
+            }
+            &:nth-child(2n) {
+                text-align: left;
+                float: right;
+                .entryTitle {
+                    &.before {
+                        left: -63px;
+                    }
+                    &.big:before {
+                        transform: translate(-8px, -50%);
+                    }
+                }
+            }
+
+            .historyBody2 {
+                color:#064004;
+                p {
+                    line-height: 1.4em;
+                    margin-bottom: 130px;
+                    font-family: "Amiri", serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    text-align: justify;
+                    width: 400px;
                 }
             }
             &:nth-child(2n) {
@@ -151,13 +180,73 @@ body {
     }
 }
 
+.historyImage {
+    position: absolute;
+    right: -70px;
+    top: 142px;
+    width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.historyImage2 {
+    position: absolute;
+    left: -55px;
+    top: 420px;
+    width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.historyImage3 {
+    position: absolute;
+    right: -70px;
+    top: 675px;
+    width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.historyImage4 {
+    position: absolute;
+    left: -55px;
+    top: 910px;
+    width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.historyImage img {
+    width: 100%;
+    height: auto;
+}
+
+.historyImage2 img {
+    width: 100%;
+    height: auto;
+}
+
+.historyImage3 img {
+    width: 100%;
+    height: auto;
+}
+
+.historyImage4 img {
+    width: 100%;
+    height: auto;
+}
+
 .gridTable {
     background-color: #A6BEAC;
     margin: 0;
     padding-top: 100px;
     padding-left: 50px;
     padding-right: 50px;
-    height: 115vh;
+    height: 117vh;
   }
   
   .gridContainer {
@@ -179,13 +268,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .gridImage img {
     max-width: 200%;
     max-height: 100%;
   }
   
   .gridTitle {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 35px;
     font-family: "Alegreya SC", serif;
     font-weight: 400;
     font-style: normal;
@@ -193,12 +285,42 @@ body {
   }
   
   .gridContent {
-    font-size: 14px;
+    font-size: 15px;
     text-align: center;
-    padding: 10px;
+    padding: 12px;
     margin-top: 5px;
     font-family: "Amiri", serif;
     font-weight: 400;
     font-style: normal;
   }
 
+.structureContent {
+    background-color: #D7D0C8;
+    margin: 0;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100vh;
+}
+
+.structureTitle {
+    text-align: center;
+    font-size: 40px;
+    color: #064004;
+    position: relative;
+    top: -30px;
+    font-family: "Alegreya SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.structureImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.structureImage img {
+    width: 80%;
+    height: auto;
+}
