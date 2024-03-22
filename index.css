@@ -88,21 +88,24 @@ body {
 @media screen and (max-width: 900px) {
   .topnav a {
     font-size: 140%;
-    margin-left: 6%;
+    margin-left: 7%;
   }
   .CVDClogo {
     float: left;
     box-sizing: border-box;
     position: relative;
-    top: 3em;
-    width: 23em;
-    height: 23em;
-  }
-  .homeButton {
-    margin: 30%;
+    top: 45px;
+    width: 30%;
+    height: 30%;
   }
   .introTxtC {
-    
+    margin-top: 300%;
+  }
+  .introTxt1 {
+    font-size: 80%;
+  }
+  .introTxt2 {
+    font-size: 80%;
   }
 }
 

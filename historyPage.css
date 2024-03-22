@@ -1,28 +1,18 @@
-<<<<<<< HEAD
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .topNav {
   background-color: darkgreen;
-=======
-.topNav {
-    background-color: darkgreen;
->>>>>>> 6b6495509d9e381cd8d647b641d423e4b77eb210
 }
-<<<<<<< HEAD
 .topNavO {
   font-family: "Cardo", serif;
   font-weight: 400;
   font-style: normal;
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
-=======
-.topNavO {
-    font-family: "Cardo", serif;
-    font-weight: 400;
-    font-style: normal;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
->>>>>>> 6b6495509d9e381cd8d647b641d423e4b77eb210
 }
-<<<<<<< HEAD
 .topNavBtn {
   color: white;
   color: white;
@@ -34,22 +24,8 @@
   position: relative;
   right: 2em;
   text-shadow: black 0px 3px 4px;
-=======
-.topNavBtn {
-    color: white;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    position: relative;
-    font-size: 1.8em;
-    padding-top: 0.7em;
-    position: relative;
-    right: 2em;
-    text-shadow: black 0px 3px 4px;
->>>>>>> 6b6495509d9e381cd8d647b641d423e4b77eb210
 }
 
-<<<<<<< HEAD
 .historyTitle {
   text-align: center;
   font-size: 60px;
@@ -61,7 +37,7 @@
   font-style: normal;
 }
 
-body {
+.historyContent {
   background-color: #D7D0C8;
   min-height: 100vh;
   margin: 0;
@@ -115,20 +91,7 @@ body {
                   transform:translate(8px, -50%);
               }
           }
-=======
-.historyTitle {
-    text-align: center;
-    font-size: 60px;
-    color: #064004;
-    position: relative;
-    top: 20px;
-    font-family: "Alike Angular", serif;
-    font-weight: 400;
-    font-style: normal;
-}
->>>>>>> 6b6495509d9e381cd8d647b641d423e4b77eb210
 
-<<<<<<< HEAD
           .entryTitle2 {
               font-size: 32px;
               margin-bottom: 12px;
@@ -153,64 +116,7 @@ body {
                   transform:translate(8px, -50%);
               }
           }
-=======
-body {
-    background-color: #D7D0C8;
-    min-height: 100vh;
-    margin: 0;
-    &:before {
-        content: '';
-        position: absolute;
-        top: 253px;
-        left: 50%;
-        bottom: -300%;
-        transform:translate(-50%);
-        width: 4px;
-        background-color:#064004;
-    }
-    .timeline {
-        width:calc(100% - 80px);
-        max-width: 800px;
-        margin:auto;
-        position: relative;
-        left: -5px;
-        top: 40px;
-        .entry {
-            width:calc(50% - 80px);
-            float: left;
-            padding: 20px;
-            clear: both;
-            text-align: right;
-            &:not(:first-child) {
-                margin-top:-60px;
-            }
-            .entryTitle {
-                font-size: 32px;
-                margin-bottom: 15px;
-                position: relative;
-                color: #064004;
-                &:before {
-                    content: '';
-                    position: absolute;
-                    width: 8px; 
-                    height: 8px;
-                    border: 4px solid #ffffff;
-                    background-color: #1d1d1d;
-                    border-radius: 100%;
-                    top: 50px;
-                    transform: translateY(-50%);
-                    right: -73px;
-                    z-index: 1000;
-                }
-                &.big:before {
-                    width: 24px;
-                    height: 24px;
-                    transform:translate(8px, -50%);
-                }
-            }
->>>>>>> 6b6495509d9e381cd8d647b641d423e4b77eb210
 
-<<<<<<< HEAD
           .historyBody {
               color:#064004;
               p {
@@ -233,52 +139,3 @@ body {
       }
   }
 }
-=======
-            .entryTitle2 {
-                font-size: 32px;
-                margin-bottom: 12px;
-                position: relative;
-                color: #064004;
-                &:before {
-                    content: '';
-                    position: absolute;
-                    width: 8px; 
-                    height: 8px;
-                    border: 4px solid #ffffff;
-                    background-color: #1d1d1d;
-                    border-radius: 100%;
-                    top: 50px;
-                    transform: translateY(-50%);
-                    left: -63px;
-                    z-index: 1000;
-                }
-                &.big:before {
-                    width: 24px;
-                    height: 24px;
-                    transform:translate(8px, -50%);
-                }
-            }
-
-            .historyBody {
-                color:#064004;
-                p {
-                    line-height: 1.4em;
-                    margin-bottom: 50px;
-                }
-            }
-            &:nth-child(2n) {
-                text-align: left;
-                float: right;
-                .entryTitle {
-                    &.before {
-                        left: -63px;
-                    }
-                    &.big:before {
-                        transform: translate(-8px, -50%);
-                    }
-                }
-            }
-        }
-    }
-}
->>>>>>> 6b6495509d9e381cd8d647b641d423e4b77eb210
