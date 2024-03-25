@@ -1,4 +1,5 @@
 body {
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     background-color: #D7D0C8;
@@ -43,7 +44,7 @@ body{
     position: absolute;
     height: 10%;
     width: 100%;
-    top: 10%;
+    top: 15%;
     font-size: 50px;
     color: #064004;
     left: 10%;
@@ -51,7 +52,7 @@ body{
 .container1{
     display: flex;
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 5%;
     width: 90%;
     height: 60%;
@@ -181,10 +182,10 @@ body{
     display: flex;
     position: absolute;
     background-color: #092b12;
-    height: 60%;
+    height: 10%;
     left: 5%;
     top: 250%;
-    width: 90%;
+    width: 91%;
     border-radius: 20px;
 }
 
@@ -193,7 +194,7 @@ body{
     position: absolute;
     height: 10%;
     width: 100%;
-    top: 320%;
+    top: 270%;
     left: 55%;
     font-size: 50px;
     color: #064004;
@@ -205,7 +206,7 @@ body{
     background-color: #A6BEAC;
     height: 60%;
     left: 5%;
-    top: 330%;
+    top: 280%;
     width: 90%;
     border-radius: 20px;
 }
@@ -234,7 +235,7 @@ body{
     position: absolute;
     height: 60%;
     left: 5%;
-    top: 400%;
+    top: 350%;
     width: 90%;
     border-radius: 20px;
     justify-content: center;
