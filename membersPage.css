@@ -2,12 +2,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #D7D0C8;
-    min-height: 100vh;
-    width: 100%;
 }
 
 .topNav {
-    background-color:#064004;
+    background-color: darkgreen;
 }
 .topNavO {
     font-family: "Cardo", serif;
@@ -29,7 +27,13 @@ body {
     text-shadow: black 0px 3px 4px;
 }
 
-.apply-nav {
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Amiri", serif;
+}
+
+/* .apply-nav {
     margin-top: -3.5%;
 }
 
@@ -137,4 +141,50 @@ body {
 
 .minimumshare {
     float: left;
+} */
+
+.dashBoardpage {
+    min-height: 100vh;
+}
+.title {
+    text-align: center;
+}
+.welcomeTitle {
+    font-family: "Alike Angular", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #064004;
+    font-size: 400% ;
+}
+.membersTitle {
+    font-family: "Alike Angular", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #064004;
+    font-size: 180%;
+    line-height: 100%;
+}
+
+.CVDCbg {
+    width: 60%;
+    margin: 2% 20%;
+}
+.btnApply {
+    background-color: #064004;
+    padding: 0.5%;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    border-radius: 5px;
+    
+}
+.applyNow {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.memberPage {
+    height: 100vh;
 }
