@@ -1,256 +1,587 @@
 body {
-    overflow-x: hidden;
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 100%;
     background-color: #D7D0C8;
 }
-
-.topNav {
-    background-color: darkgreen;
+* {
+    scroll-behavior: smooth;
 }
-.topNavO {
+
+/* NAVTOP SECTION */
+.Atitlelogo {
+    color: white;
     font-family: "Cardo", serif;
     font-weight: 400;
     font-style: normal;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    font-size: 75%;
+    line-height: 1;
+    padding-right: 1%;
+    margin-left: 0.2%;
+    text-shadow: black 1px 2px 3px;
+    border-right: #006400 solid 3px;
+}
+.Vtitlelogo {
+    position: relative;
+    top: 25%;
+}
+.AtitlelogoV {
+    font-family: "Allan", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80%;
+    position: relative;
+    top: 10%;
+}
+.imgLogo {
+    width: 60px;
+    height: 60px;
+    padding-top: 7%;
+}
+.topNavContainer {
+    display: flex;
+    background-color: #064004;
+    box-shadow: rgba(0, 0, 0, 0.584) 0px 3px 5px;
+}
+.topNavBtnHolder {
+    display: flex;
+    font-family: "Gideon Roman", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .topNavBtn {
-    color: white;
-    color: white;
+    font-size: 170%;
+    margin-top: 2%;
+    margin-left: 20%;
+    padding: 1.5%;
+    height: 50%;
+}
+.topNavBtn:hover {
+    background-color: #a6beac9c;
+    border-radius: 5px;
+}
+a {
     text-decoration: none;
-    text-align: center;
-    position: relative;
-    font-size: 1.8em;
-    padding-top: 0.7em;
-    position: relative;
-    right: 2em;
-    text-shadow: black 0px 3px 4px;
+    color: white;
 }
-@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@media screen and (max-width: 900px) {
+    .imgLogo {
+        width: 55px;
+        height: 55px;
+        padding-top: 7%;
+    }
+    .Atitlelogo {
+        font-size: 65%;
+    }
+    .topNavBtn {
+        margin-left: 5%;
+        font-size: 150%;
+    }
+}
+/* END OF NAVTOP SECTION */
 
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    font-family: "Amiri", serif;
+/* CONTAINER 1 */
+.container1 {
+    height: 100vh
 }
-body{
-    background-color: #D7D0C8;
-}
-.heading1{
-    display: flex;
-    position: absolute;
-    height: 10%;
-    width: 100%;
-    top: 15%;
-    font-size: 50px;
+.welcomeTitle {
+    font-family: "Alike Angular", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 350%;
     color: #064004;
-    left: 10%;
+    padding-top: 3%;
+    margin-left: 18%;
 }
-.container1{
+.dashboardholder {
     display: flex;
-    position: absolute;
-    top: 25%;
-    left: 5%;
-    width: 90%;
-    height: 60%;
+    padding: 1% 10%;
 }
-.image1{
-    display: flex;
-    position: relative;
-    background-color: #092b12;
+.imgWelcome {
     width: 50%;
-    height: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.619) 3px 3px 10px;
 }
-.paragraph1{
-    display: flex;
-    position: relative;
-    padding: 15px;
-    width: 50%;
-    font-size: 25px;
-    align-items: center;
-}
-.welcome_paragraph{
+.welcomeInfo {
+    margin-left: 3%;
+    line-height: 1.7;
+    font-size: 130%;
     text-align: justify;
 }
-.heading2{
+@media screen and (max-width: 900px) {
+    .container1 {
+        height: 90vh;
+    }
+    .welcomeTitle {
+        font-size: 280%;
+        margin-left: 10%;
+    }
+    .imgWelcome {
+        position: relative;
+        right: 10%;
+        width: 60%;
+        height: 23em;
+    }
+    .welcomeInfoHolder {
+        font-size: 80%;
+        width: 150%;
+        position: relative;
+        right: 8%;
+    }
+    .welcomeInfo {
+        width: 130%;
+    }
+}
+/* END OF CONTAINER 1 */
+
+/* CONTAINER 2 */
+.container2 {
+    height: 100vh
+}
+.WICholder {
     display: flex;
-    position: absolute;
-    height: 10%;
-    width: 100%;
-    top: 90%;
-    left: 70%;
-    font-size: 50px;
+}
+.WICleftHolder{
+    background-color: #A6BEAC;
+    border-radius: 20px;
+    margin: 2%;
+    padding: 3%;
+    width: 80%;
+}
+.WICtitle {
     color: #064004;
+    text-align: left;
+    font-family: "Alegreya SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+    line-height: 1;
 }
-
-.container2{
-    display: flex;
-    position: absolute;
-    background-color: #A6BEAC;
-    height: 60%;
-    left: 5%;
-    top: 100%;
-    width: 90%;
-    border-radius: 20px;
-}
-
-.paragraph2{
-    display: flex;
-    position: relative;
-    font-size: 25px;
-    width: 50%;
-    padding: 40px;
-    align-items: center;
-}
-.CVDC_desc{
+.WICinfo {
+    font-size: 110%;   
+    line-height: 1.5;
     text-align: justify;
 }
-
-.image2{
-    display: flex;
-    position: relative;
-    background-color: #092b12;
-    width: 50%;
-    height: 100%;
-}
-.container3{
-    display: flex;
-    position: absolute;
-    background-color: #A6BEAC;
-    height: 60%;
-    left: 5%;
-    top: 180%;
-    width: 43%;
+.WICrightHolder {
+    background: url(what\ is\ cvdc.jpg);
+    background-size: cover ;
+    margin: 2%;
     border-radius: 20px;
 }
-.heading3{
-    display: flex;
-    position: absolute;
-    justify-content: space-between;
-    align-items: center;
-    height: 10%;
-    width: 90%;
-    top: 170%;
-    left: 5%;
-    font-size: 30px;
+.WICtitleV {
+    font-size: 300%;
     color: #064004;
-    line-height: 18px;
+    text-align: left;
+    font-family: "Alegreya SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 70%;
 }
-
-.paragraph3{
-    display: flex;
-    position: relative;
-    width: 100%;
-    font-size: 20px;
-    padding: 10px;
+.WICinfoV {
+    font-size: 110%;
+    line-height: 1.5;
 }
-.cooperative_desc{
-    text-align: justify;
-    word-spacing: 6px;
-}
-.p2_sub{
-    font-size: 20px;
-}
-
-.container4{
-    display: flex;
-    position: absolute;
+.WICrightC {
+    padding: 3%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     background-color: #A6BEAC;
-    height: 60%;
-    left: 53%;
-    top: 180%;
-    width: 43%;
-    border-radius: 20px;
+    background: #a6beacac;
+    backdrop-filter: blur(5px);
+    color: #042503;
 }
+@media screen and (max-width: 900px) {
+    .container2 {
+        height: 100vh
+    }
+    .WICholder {
+        display: flex;
+    }
+    .WICleftHolder{
+        background-color: #A6BEAC;
+        border-radius: 15px;
+        margin: 2%;
+        padding: 3% 5%;
+        width: 50%;
+    }
+    .WICtitle {
+        color: #064004;
+        text-align: left;
+        font-family: "Alegreya SC", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 200%;
+        line-height: 1;
+    }
+    .WICinfo {
+        font-size: 110%;   
+        line-height: 1.1;
+        text-align: justify;
+    }
+    .WICrightHolder {
+        background: url(what\ is\ cvdc.jpg);
+        background-size: cover ;
+        margin: 2%;
+        border-radius: 20px;
+    }
+    .WICtitleV {
+        font-size: 250%;
+        color: #064004;
+        text-align: left;
+        font-family: "Alegreya SC", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 58%;
+    }
+    .WICinfoV {
+        font-size: 110%;
+        line-height: 1.5;
+    }
+    .WICrightC {
+        padding: 3%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: #A6BEAC;
+        background: #a6beacac;
+        backdrop-filter: blur(5px);
+        color: #042503;
+    }
+}
+/* END OF CONTAINER 2 */
 
-.paragraph4{
-    display: flex;
-    position: relative;
-    width: 100%;
-    font-size: 20px;
-    padding: 10px;
+/* CONTAINER 3 */
+.container3 {
+    height: 120vh;
 }
-
-.gov_desc{
-    text-align: justify;
-}
-
-.container5{
-    display: flex;
-    position: absolute;
-    background-color: #092b12;
-    height: 10%;
-    left: 5%;
-    top: 250%;
-    width: 91%;
-    border-radius: 20px;
-}
-
-.heading4{
-    display: flex;
-    position: absolute;
-    height: 10%;
-    width: 100%;
-    top: 270%;
-    left: 55%;
-    font-size: 50px;
-    color: #064004;
-}
-
-.container6{
-    display: flex;
-    position: absolute;
-    background-color: #A6BEAC;
-    height: 60%;
-    left: 5%;
-    top: 280%;
-    width: 90%;
-    border-radius: 20px;
-}
-.image3{
-    display: flex;
-    position: relative;
-    background-color: #092b12;
-    width: 50%;
-    height: 100%;
-}
-.paragraph5{
-    display: flex;
-    position: relative;
-    width: 50%;
-    font-size: 20px;
-    padding: 10px;
-    align-items: center;
-    font-size: 25px;
-}
-.principle_desc{
-    text-align: justify;
-}
-
-.container7{
-    display: flex;
-    position: absolute;
-    height: 60%;
-    left: 5%;
-    top: 350%;
-    width: 90%;
-    border-radius: 20px;
-    justify-content: center;
-}
-.principle_list{
+.GSCimg {
+    background: url(pic.png);
     width: 70%;
-    font-size: 25px;
+    height: 70%;
+    z-index: -1;
+    position: absolute;
+    margin-top: 0%;
+    left: 30%;
 }
-.p_heading{
-    font-weight: 800;
+.GSCcontainer {
+    padding-top: 3%;
+}
+.GSCtitle, .GSCtitleC, .GSCratitle{
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+    padding: 1%;
     color: #064004;
-    margin: 10px;
+    z-index: -1;
+    margin-left: 25%;
+    background-color: #a6beacb3;
 }
-.p_paragraph{
+.GSCtitle {
+    width: 50%;
+    text-align: center;
+}
+
+.GSCtitleC {
+    width: 25%;
+    padding: 0.5%;
+    text-align: center;
+    margin-left: 28%;
+}
+.GSCratitle {
+    font-size: 100%;
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 35%;
+    padding: 0.5%;
+    text-align: center;
+    color: white;
+}
+.GSCinfoHolder {
+    margin-top: 16%;
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120%;
+    padding: 3%;
     text-align: justify;
-    background-color: #A6BEAC;
-    padding: 19px;
 }
+.GSCinfo {
+    background-color: #A6BEAC;
+    padding: 2%;
+}
+@media screen and (max-width: 900px) {
+    .container3 {
+        height: 120vh;
+    }
+    .GSCimg {
+        background: url(pic.png);
+        width: 65%;
+        height: 65%;
+        z-index: -1;
+        position: absolute;
+        left: 35%;
+    }
+    .GSCcontainer {
+        margin-top: 5%;
+    }
+    .GSCtitle, .GSCtitleC, .GSCratitle{
+        font-family: "Alfa Slab One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 200%;
+        padding: 1%;
+        color: #064004;
+        z-index: -1;
+        margin-left: 5%;
+        background-color: #a6beacb3;
+    }
+    .GSCtitle {
+        width: 70%;
+        text-align: center;
+    }
+    
+    .GSCtitleC {
+        width: 40%;
+        padding: 0.5%;
+        text-align: center;
+        margin-left: 10%;
+    }
+    .GSCratitle {
+        font-size: 100%;
+        font-family: "Cardo", serif;
+        font-weight: 400;
+        font-style: normal;
+        width: 55%;
+        padding: 0.5%;
+        text-align: center;
+        color: white;
+    }
+    .GSCinfoHolder {
+        margin-top: 16%;
+        font-family: "Cardo", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 110%;
+        padding: 8% 5%;
+        text-align: justify;
+    }
+    .GSCinfo {
+        background-color: #A6BEAC;
+        padding: 2%;
+        line-height: 1.2;
+        color: #042503;
+    }
+}
+/* END OF CONTAINER 3 */
+
+/* CONTAINER 4 */
+.container4 {
+    height: 100vh;
+}
+.CPholder {
+    position: relative;
+    bottom: 10%;
+    display: flex;
+}
+.CPimg {
+    width: 50%;
+    height: 25em;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.466) -5px 7px 10px;
+}
+.CPtitle, .CPinfo {
+    padding: 6%;
+}
+.CPtitle {
+    text-align: center;
+    font-family: "Alegreya SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #064004;
+    font-size: 200%;
+    line-height: 0.5;
+}
+.CPinfo {
+    color: black;
+    text-align: justify;
+    font-size: 60%;
+    line-height: 1.5;
+}
+@media screen and (max-width: 900px) {
+    .container4 {
+        height: 70vh;
+    }
+    .CPholder {
+        display: flex;
+    }
+    .CPimg {
+        width: 50%;
+        height: 20em;
+        background-size: cover;
+        box-shadow: rgba(0, 0, 0, 0.466) -5px 7px 10px;
+    }
+    .CPtitle, .CPinfo {
+        padding: 0% 10%;
+    }
+    .CPtitle {
+        text-align: center;
+        font-family: "Alegreya SC", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #064004;
+    }
+    .CPtitleHolder {
+        position: relative;
+        right: 45%;
+        width: 200%;
+        font-size: 80%;
+        line-height: 2;
+    }
+    .CPinfo {
+        position: relative;
+        right: 19%;
+        color: black;
+        text-align: justify;
+        font-size: 50%;
+        width: 125%;
+        line-height: 1.3;
+    }
+}
+/* END OF CONTAINER 4 */
+
+/* CONTAINER 5 */
+.container5 {
+    height: 100vh;
+}
+.MinfoList {
+    padding: 1%;
+}
+.Minfotitle {
+    text-align: left;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #064004;
+    font-size: 150%;
+    box-sizing: border-box;
+    margin-left: 20%;
+}
+.Minfo {
+    background-color: #A6BEAC;
+    padding: 2.2%;
+    margin-left: 25%;
+}
+@media screen and (max-width: 900px) {
+    .container5 {
+        height: 100vh;
+    }
+    .MinfoHolder {
+        position: relative;
+        bottom: 10%;
+    }
+    .MinfoList {
+        padding: 1%;
+    }
+    .Minfotitle {
+        text-align: left;
+        font-family: "Alfa Slab One", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #064004;
+        font-size: 120%;
+        box-sizing: border-box;
+        margin-left: 20%;
+    }
+    .Minfo {
+        background-color: #A6BEAC;
+        padding: 2.2%;
+        margin-left: 25%;
+    }
+}
+/* END OF CONTAINER 5 */
+
+/* CONTACT SECTION */
+.contactF {
+    background: url(sectionCol.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+  .infoCt {
+    display: flex;
+    margin: 8% 5%;
+    padding: 3%;
+    column-gap: 15%;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-size: 130%;
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: black 5px 3px 5px;
+    line-height: 0.8;
+  }
+  .imgsG {
+    display: flex;
+    column-gap: 5%;
+    position: relative;
+    top: 5%;
+    margin-left: 10%;
+  }
+  .mainBld, .Gmap {
+    height: 25em;
+    border-radius: 10px;
+    width: 40%;
+  }
+@media screen and (max-width: 900px) {
+    .contactF {
+        background: url(sectionCol.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100vh;
+      }
+      .infoCt {
+        display: flex;
+        margin: 10% 5%;
+        padding: 3%;
+        column-gap: 15%;
+        text-align: center;
+        color: white;
+        position: relative;
+        font-size: 110%;
+        font-family: "Cardo", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-shadow: black 5px 3px 5px;
+        line-height: 0.8;
+    }
+    .mainBld, .Gmap {
+        height: 20em;
+        border-radius: 10px;
+        width: 40%;
+      }
+}
+/* END OF CONTACT SECTION */
+
+/* BACK TO TOP BUTTON */
+  .bck2top {
+    position: fixed;
+    bottom: 20px;
+    float: right;
+    left: 95%;
+    background-color: rgba(0, 0, 0, 0.429);
+    color: white;
+    padding: 0.5%;
+    font-size: 100%;
+    border-radius: 4px;
+  }
+  .bck2top:hover {
+    background-color: #a6beac4d;
+    color: #a6beac4d;
+  }
+/* BACK TO TOP BUTTON */

@@ -3,146 +3,83 @@ body {
     padding: 0;
     background-color: #D7D0C8;
 }
-
-.topNav {
-    background-color: darkgreen;
+* {
+    scroll-behavior: smooth;
 }
-.topNavO {
+
+/* NAVTOP SECTION */
+.Atitlelogo {
+    color: white;
     font-family: "Cardo", serif;
     font-weight: 400;
     font-style: normal;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    font-size: 75%;
+    line-height: 1;
+    padding-right: 1%;
+    margin-left: 0.2%;
+    text-shadow: black 1px 2px 3px;
+    border-right: #006400 solid 3px;
+}
+.Vtitlelogo {
+    position: relative;
+    top: 25%;
+}
+.AtitlelogoV {
+    font-family: "Allan", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80%;
+    position: relative;
+    top: 10%;
+}
+.imgLogo {
+    width: 60px;
+    height: 60px;
+    padding-top: 7%;
+}
+.topNavContainer {
+    display: flex;
+    background-color: #064004;
+    box-shadow: rgba(0, 0, 0, 0.584) 0px 3px 5px;
+}
+.topNavBtnHolder {
+    display: flex;
+    font-family: "Gideon Roman", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .topNavBtn {
-    color: white;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    position: relative;
-    font-size: 1.8em;
-    padding-top: 0.7em;
-    position: relative;
-    right: 2em;
-    text-shadow: black 0px 3px 4px;
+    font-size: 170%;
+    margin-top: 2%;
+    margin-left: 20%;
+    padding: 1.5%;
+    height: 50%;
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Amiri", serif;
-}
-
-/* .apply-nav {
-    margin-top: -3.5%;
-}
-
-.apply-nav a {
-    padding: 10px 20px;
-    background-color: #064004;
-    color: white;
-    text-decoration: none;
+.topNavBtn:hover {
+    background-color: #a6beac9c;
     border-radius: 5px;
-    margin-left: 46%;
-    margin-top: 40%;
 }
-
-.apply-nav a:hover {
-    background-color: green;
+a {
+    text-decoration: none;
+    color: white;
 }
-
-.ApplicationRequirements {
-    margin: 5%;
-    border: 1px solid #D7D0C8;
-    float: left;
-    width: 600px;
+@media screen and (max-width: 900px) {
+    .imgLogo {
+        width: 55px;
+        height: 55px;
+        padding-top: 7%;
+    }
+    .Atitlelogo {
+        font-size: 65%;
+    }
+    .topNavBtn {
+        margin-left: 5%;
+        font-size: 150%;
+    }
 }
+/* END OF NAVTOP SECTION */
 
-.ApplicationRequirements:hover {
-    border: 1px solid #000;
-}
-
-.ApplicationRequirements img {
-    width: 100%;
-    height: auto;
-}
-
-.desc {
-    text-align: center;
-    font-size: 200%;
-    font-family: Georgia, serif;
-}
-
-.welcomemembers h1 {
-    text-align: center;
-    font-size: 40px;
-    color: #064004;
-    margin-bottom: -1.1%;
-    font-family: Garamond, serif;
-}
-
-.welcomemembers h2 {
-    text-align: center;
-    font-size: 20px;
-    color: #064004;
-    margin-bottom: -5.20%;
-    font-family: Garamond, serif;
-}
-
-.minimum h1 {
-    text-align: center;
-    font-size: 40px;
-    color: #064004;
-    font-family: Garamond, serif;
-    margin-bottom: -2%;
-}
-
-.minimum h2 {
-    text-align: center;
-    font-size: 35px;
-    color: #064004;
-    font-family: Garamond, serif;
-}
-
-.picture1 {
-    background-position: right bottom, top left;
-    background-repeat: no-repeat, repeat;
-    background-size: 100% 100%;
-
-}
-
-.regular {
-    background-color: #064004;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-    width: 40%;
-    margin-left: 10%;
-}
-
-.container {
-    text-align: center;
-    padding: 10px 20px;
-    color: #fff;
-}
-
-.associate {
-    background-color: #064004;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 20px;
-    width: 40%;
-    margin-left: 10%;
-}
-
-.container2 {
-    text-align: center;
-    padding: 10px 20px;
-    color: #fff;
-}
-
-.minimumshare {
-    float: left;
-} */
-
+/* SECTION 1 */
 .dashBoardpage {
     min-height: 100vh;
 }
@@ -155,6 +92,7 @@ body {
     font-style: normal;
     color: #064004;
     font-size: 400% ;
+    margin-top: 1%;
 }
 .membersTitle {
     font-family: "Alike Angular", serif;
@@ -162,12 +100,13 @@ body {
     font-style: normal;
     color: #064004;
     font-size: 180%;
-    line-height: 100%;
+    line-height: 0;
 }
 
 .CVDCbg {
-    width: 60%;
-    margin: 2% 20%;
+    background-size: cover;
+    width: 50%;
+    margin: 1% 25%;
 }
 .btnApply {
     background-color: #064004;
@@ -184,7 +123,532 @@ body {
     font-style: normal;
     color: white;
 }
+.btnApply:hover {
+    background-color: #A6BEAC;
+}
+@media screen and (max-width: 900px) {
+    .dashBoardpage {
+        min-height: 100vh;
+    }
+    .title {
+        text-align: center;
+    }
+    .welcomeTitle {
+        font-family: "Alike Angular", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #064004;
+        font-size: 300% ;
+        margin-top: 1%;
+    }
+    .membersTitle {
+        font-family: "Alike Angular", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #064004;
+        font-size: 180%;
+        line-height: 0.5;
+    }
+    
+    .CVDCbg {
+        background-size: cover;
+        width: 70%;
+        margin: 1% 15%;
+    }
+    .btnApply {
+        background-color: #064004;
+        padding: 0.5%;
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+        border-radius: 5px;
+        
+    }
+    .applyNow {
+        font-family: "Alfa Slab One", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+    }
+    .btnApply:hover {
+        background-color: #A6BEAC;
+    }
+}
+/* END OF SECTON 1 */
 
-.memberPage {
+/* SECTION 2 */
+.membersPage {
     height: 100vh;
 }
+.applyMholder {
+    display: flex;
+    padding-top: 5%;
+}
+.applyC {
+    width: 60%;
+    height: 90%;
+    margin-left: 20%;
+    margin-top: 3%;
+    border-radius: 10px;
+    border: rgba(0, 0, 0, 0.192) solid 2px;
+}
+.applyC:hover {
+    box-shadow: rgba(0, 0, 0, 0.568) 5px 5px 10px;
+}
+.applyMtitle, .applyMtitleC {
+    text-align: center;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #064004;
+    font-size: 150%;
+}
+@media screen and (max-width: 900px) {
+    .membersPage {
+        height: 100vh;
+    }
+    .applyMholder {
+        display: flex;
+        padding-top: 5%;
+    }
+    .applyC {
+        width: 70%;
+        height: 90%;
+        margin-left: 15%;
+        border-radius: 10px;
+    }
+    .applyC:hover {
+        box-shadow: rgba(0, 0, 0, 0.568) 5px 5px 10px;
+    }
+    .applyMtitle, .applyMtitleC {
+        text-align: center;
+        font-family: "Alfa Slab One", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #064004;
+        font-size: 150%;
+        line-height: 1;
+    }
+}
+/* END OF SECTION 2 */
+
+/* SECTION 3 */
+.MSCRpage {
+    height: 100vh;
+}
+.MSCRinfoHolder {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #064004;
+}
+
+.MSCRtitle {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+    color: #064004;
+    text-align: center;
+    line-height: 1;
+    margin-top: 5%;
+}
+.MSCRinfoHolder {
+    display: flex;
+    place-content: center;
+    margin-top: 5%;
+    column-gap: 5%;
+}
+.MSCRinfo1, .MSCRinfo2 {
+     position: relative;
+     top: 5em;
+     color: #064004;
+}
+.MSCRinfo1 {
+    background-color: #A6BEAC;
+    padding: 2%;
+    font-size: 120%;
+    text-align: left;
+    width: 250%;
+    line-height: 1.5;
+}
+.MSCRinfo2 {
+    background-color: #A6BEAC;
+    padding: 2%;
+    font-size: 120%;
+    text-align: left;
+    line-height: 1.5;
+}
+@media screen and (max-width: 900px) {
+    .MSCRpage {
+        height: 100vh;
+    }
+    .MSCRinfoHolder {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #064004;
+    }
+    
+    .MSCRtitle {
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 200%;
+        color: #064004;
+        text-align: center;
+        line-height: 0.9;
+        margin-top: 1%;
+    }
+    .MSCRinfoHolder {
+        display: flex;
+        place-content: center;
+        margin-top: 5%;
+        column-gap: 5%;
+    }
+    .MSCRinfo1, .MSCRinfo2 {
+         position: relative;
+         top: 3em;
+         color: #064004;
+    }
+    .MSCRinfo1 {
+        background-color: #A6BEAC;
+        padding: 2%;
+        font-size: 120%;
+        text-align: left;
+        line-height: 1.5;
+    }
+    .MSCRinfo2 {
+        background-color: #A6BEAC;
+        padding: 2%;
+        font-size: 120%;
+        text-align: left;
+        line-height: 1.5;
+    }
+}
+/* END OF SECTION 3 */
+
+/* SECTION 4 */
+.OptPage {
+    height: 190vh;
+    background-color: #A6BEAC;
+}
+.OptPageHolder {
+    padding: 2.5%;
+}
+.Opttitle {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150%;
+    color: #064004;
+    background-color: #06400436;
+    margin-bottom: 2%;
+    padding: 1% 5%;
+}
+.Optinfo {
+    padding: 0% 15%;
+    font-family: "Amiri", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #006400;
+    font-size: 130%;
+    line-height: 1.4;
+}
+@media screen and (max-width: 900px) {
+    .OptPage {
+        height: 190vh;
+        background-color: #A6BEAC;
+    }
+    .OptPageHolder {
+        padding: 2.5%;
+    }
+    .Opttitle {
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 150%;
+        color: #064004;
+        background-color: #06400436;
+        margin-bottom: 2%;
+        padding: 1% 5%;
+    }
+    .Optinfo {
+        padding: 0% 15%;
+        font-family: "Amiri", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #006400;
+        font-size: 110%;
+        line-height: 1.1;
+    }
+}
+/* END OF SECTION 4 */
+
+/* SECTION 5 */
+.RPMpage {
+    height: 100vh;
+}
+
+.RMholder{
+    display: flex;
+}
+.RPMtitle {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #064004;
+    background-color: #06400436;
+    margin: 5% 0%;
+    padding: 2% 1%;
+    width: 40%;
+    font-size: 140%;
+}
+.RMtitleholder {
+    width: 50%;
+    padding: 0% 5%;
+}
+.liTitle {
+    font-weight: bold;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 130%;
+    color: #064004;
+    background-color: #06400436;
+    padding: 1% 3%;
+}
+.RMscrll{
+    padding: 5%;
+    overflow-y: scroll;
+    height: 30%;
+    font-size: 120%;
+    line-height: 2;
+    background-color: #A6BEAC;
+}
+.RMscrll::-webkit-scrollbar {
+    display: none;
+}
+@media screen and (max-width: 900px) {
+    .RPMpage {
+        height: 100vh;
+    }
+    
+    .RMholder{
+        display: flex;
+    }
+    .RPMtitle {
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #064004;
+        background-color: #06400436;
+        margin: 5% 0%;
+        padding: 2% 1%;
+        width: 40%;
+        font-size: 140%;
+    }
+    .RMtitleholder {
+        width: 50%;
+        padding: 0% 5%;
+    }
+    .liTitle {
+        font-weight: bold;
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 130%;
+        color: #064004;
+        background-color: #06400436;
+        padding: 1% 3%;
+    }
+    .RMscrll{
+        padding: 5%;
+        overflow-y: scroll;
+        height: 20%;
+        font-size: 120%;
+        line-height: 2;
+        background-color: #A6BEAC;
+    }
+    .RMscrll::-webkit-scrollbar {
+        display: none;
+    }
+}
+/* END OF SECTION 5 */
+
+/* SECTION 6 */
+.MRpage {
+    height: 100vh;
+}
+.MRpageHolder {
+    display: flex;
+    column-gap: 5%;
+
+}
+.MRcontainer {
+    padding: 0% 3%;
+}
+.MRtitleHolder {
+    color: #006400;
+    margin: 5% 5%;
+    width: 34%;
+    padding: 1%;
+}
+.MRtitle {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 350%;
+    line-height: 1;
+}
+.MRtitleD {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 200%;
+}
+.MRinfo {
+    font-size: 130%;
+    list-style-type: decimal;
+    padding: 0% 5%;
+}
+.listInfo {
+    width: 150%;
+    line-height: 2;
+}
+.MRimg {
+    width: 45%; 
+    margin: 3% 5%;
+    box-shadow: rgba(0, 0, 0, 0.55) 3px 5px 10px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 900px) {
+    .MRpage {
+        height: 100vh;
+    }
+    .MRpageHolder {
+        display: flex;
+        column-gap: 5%;
+    }
+    .MRcontainer {
+        padding: 0% 3%;
+    }
+    .MRtitleHolder {
+        color: #006400;
+        margin: 5% 5%;
+        width: 34%;
+        padding: 1%;
+    }
+    .MRtitle {
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 250%;
+        line-height: 0.5;
+    }
+    .MRtitleD {
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 160%;
+    }
+    .MRinfo {
+        font-size: 130%;
+        list-style-type: decimal;
+        position: relative;
+        right: 5%;
+        margin: 0% 5%;
+    }
+    .listInfo {
+        width: 150%;
+    }
+    .MRimg {
+        width: 44%; 
+        margin: 0% 2%;
+        box-shadow: rgba(0, 0, 0, 0.55) 3px 5px 10px;
+        border-radius: 10px;
+    }
+}
+/* END OF SECTION 6 */
+
+/* CONTACT SECTION */
+.contactF {
+    background: url(sectionCol.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+  .infoCt {
+    display: flex;
+    margin: 8% 5%;
+    padding: 3%;
+    column-gap: 15%;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-size: 130%;
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: black 5px 3px 5px;
+    line-height: 0.8;
+  }
+  .imgsG {
+    display: flex;
+    column-gap: 5%;
+    position: relative;
+    top: 5%;
+    margin-left: 10%;
+  }
+  .mainBld, .Gmap {
+    height: 25em;
+    border-radius: 10px;
+    width: 40%;
+  }
+@media screen and (max-width: 900px) {
+    .contactF {
+        background: url(sectionCol.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100vh;
+      }
+      .infoCt {
+        display: flex;
+        margin: 10% 5%;
+        padding: 3%;
+        column-gap: 15%;
+        text-align: center;
+        color: white;
+        position: relative;
+        font-size: 110%;
+        font-family: "Cardo", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-shadow: black 5px 3px 5px;
+        line-height: 0.8;
+    }
+    .mainBld, .Gmap {
+        height: 20em;
+        border-radius: 10px;
+        width: 40%;
+      }
+}
+/* END OF CONTACT SECTION */
+
+/* NAVTOP SECTION */
+.bck2top {
+    position: fixed;
+    bottom: 20px;
+    float: right;
+    left: 95%;
+    background-color: rgba(0, 0, 0, 0.429);
+    color: white;
+    padding: 0.5%;
+    font-size: 100%;
+    border-radius: 4px;
+  }
+  .bck2top:hover {
+    background-color: #a6beac4d;
+    color: #a6beac4d;
+  }
+/* END OF NAVTOP */

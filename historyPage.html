@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/197c46066b.js" crossorigin="anonymous"></script>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +17,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alike+Angular&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Alfa+Slab+One&family=Alike+Angular&family=Allan:wght@400;700&family=Capriola&family=Cardo:ital,wght@0,400;0,700;1,400&family=Gideon+Roman&family=Koulen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alike+Angular&family=Allan:wght@400;700&family=Capriola&family=Cardo:ital,wght@0,400;0,700;1,400&family=Gideon+Roman&family=Koulen&display=swap" rel="stylesheet">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,29 +33,20 @@
 </head>
 <body>
     <!-- this is the Navigation Bar Section -->
-    <div class="topNav">
-        <div class="topNavO">
-        <div class="CVDClogoNav"><a href="index.html">
-            <img src="CVDClogo.png" alt="LOGO" style="height: 3.7em; padding: 0.3em;">
-            <div class="imgTxt" style="float: right; 
-            color: white; 
-            text-shadow: black 0px 3px 4px;
-            position: relative;
-            right: 4em;
-            top: 0.5em;">
-            Concepcion Vendors <br>Development Cooperative<br>
-            <div class="imgTxt2" style="font-size: 0.7em;">"Life is Easy with CVDC!"</div>
-        </div></a>
+    <div class="topNavHolder" id="NavTop">
+        <div class="topNavContainer">
+            <a href="index.html"><img src="CVDClogo.png" alt="CVDClogo" class="imgLogo"></a>
+            <div class="Atitlelogo"><div class="Vtitlelogo">Concepcion Vendors <br>Development Cooperative </div><br><div class="AtitlelogoV">"Life is Easy wtih CVDC!"</div></div>
+            <div class="topNavBtnHolder">
+                <div class="topNavBtn"><a href="homePage.html">HOME</a></div>
+                <div class="topNavBtn"><a href="historyPage.html">HSITORY</a></div>
+                <div class="topNavBtn"><a href="membersPage.html">MEMBERS</a></div>
+                <div class="topNavBtn"><a href="#sectionCol">CONTACTS</a></div>
+            </div>
         </div>
-        <a href="#" class="topNavBtn">HOME</a>
-        <a href="#" class="topNavBtn">SERVICES</a>
-        <a href="#" class="topNavBtn">HISTORY</a>
-        <a href="#" class="topNavBtn">MEMBERS</a>
-        <a href="#" class="topNavBtn">CONTACTS</a>
-    </div>
-
     </div>
     <!-- this is the end section for Navigation Bar Section -->
+    
     <div class="historyContent" id="section1">
         <div class="historyTitle">HISTORY</div>
         <div class="timeline">
@@ -172,8 +171,26 @@
     <div class="structureContent" id="section3">
         <div class="structureTitle">ORGANIZATIONAL STRUCTURE OF A COOPERATIVE</div>
         <div class="structureImage">
-            <img src="CVDC-bg.png" id="structure">
+            <img src="OSC.png" id="structure">
         </div>
+    </div>
+
+    <div class="contactF" id="sectionCol">
+        <div class="infoCt">
+            <div class="columnC">
+                <div class="ctTxt">CONTACTS</div><br>
+                <div class="ctTxtinfo" style="color: rgba(255, 255, 255, 0.803); font-size: 80%;">09123456789</div>
+            </div>
+            <div class="columnC">
+                <div class="ctTxt">LOCATION</div><br>
+                <div class="ctTxtinfo" style="color: rgba(255, 255, 255, 0.803); font-size: 80%;">8 Guisama Concepcion..</div>
+            </div>
+            <div class="columnC">
+                <div class="ctTxt">EMAIL</div><br>
+                <div class="ctTxtinfo" style="color: rgba(255, 255, 255, 0.803); font-size: 80%;">abcd@email.com</div>
+            </div>
+        </div>
+        <a class="bck2top" href="#section1"><i class="fa-solid fa-chevron-up"></i></a>
     </div>
 </body>
 </html>

@@ -58,7 +58,7 @@ body {
   float: left;
   display: block;
   position: relative;
-  margin-left: 10%;
+  margin-left: 13%;
   color: #f2f2f2;
   text-decoration: none;
   font-size: 150%;
@@ -97,7 +97,7 @@ body {
 @media screen and (max-width: 900px) {
   .topnav a {
     font-size: 140%;
-    margin-left: 6%;
+    margin-left: 9%;
   }
   .CVDClogo {
     float: left;
@@ -173,136 +173,6 @@ body {
   font-style: normal;
   font-size: 50%;
   line-height: 200%;
-}
-
-.servicesPageM1 {
-  height: 100vh;
-}
-
-.servicesPageO {
-  font-family: "Cardo", serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 300%;
-  text-align: center;
-  color: white;
-  padding-top: 1em;
-  text-shadow: black 5px 1px 6px;
-}
-.servicesOption1 {
-  display: flex;
-  text-align: center;
-  margin: 5% 8%;
-  column-gap: 4%;
-  color: white;
-}
-.column1 {
-  border-radius: 10px;
-  border: #A6BEAC solid 3px;
-  background-color: #A6BEAC;
-  background-image: linear-gradient(to top, transparent, #a6beac), url('productiveIMG.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 20%;
-}
-.insuranceInfo {
-  text-align: left;
-  font-family: "Capriola", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 70%;
-}
-.insuranceTt {
-  background: #a6beacac;
-  backdrop-filter: blur(5px);
-  padding: 5%;
-  border-end-end-radius: 7px;
-  border-end-start-radius: 7px;
-  font-size: 110%;
-  font-family: "Cardo", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-.column2 {
-  border-radius: 10px;
-  border: #A6BEAC solid 3px;
-  background-color: #A6BEAC;
-  background-image: linear-gradient(to top, transparent, #a6beac), url('productiveIMG.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 20%;
-}
-.householdInfo {
-  text-align: left;
-  font-family: "Capriola", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 70%;
-}
-.householdTt {
-  background: #a6beacac;
-  backdrop-filter: blur(5px);
-  padding: 5%;
-  border-end-end-radius: 7px;
-  border-end-start-radius: 7px;
-  font-size: 110%;
-  font-family: "Cardo", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-.column3 {
-  border-radius: 10px;
-  border: #A6BEAC solid 3px;
-  background-color: #A6BEAC;
-  background-image: linear-gradient(to top, transparent, #a6beac), url('productiveIMG.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 20%;
-}
-.retailInfo {
-  text-align: left;
-  font-family: "Capriola", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 70%;
-}
-.retailTt {
-  background: #a6beacac;
-  backdrop-filter: blur(5px);
-  padding: 5%;
-  border-end-end-radius: 7px;
-  border-end-start-radius: 7px;
-  font-size: 110%;
-  font-family: "Cardo", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-.column4 {
-  border-radius: 10px;
-  border: #A6BEAC solid 3px;
-  background-color: #A6BEAC;
-  background-image: linear-gradient(to top, transparent, #a6beac), url('productiveIMG.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 20%;
-}
-.propertyInfo {
-  text-align: left;
-  font-family: "Capriola", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 70%;
-}
-.propertyTt {
-  background: #a6beacac;
-  backdrop-filter: blur(5px);
-  padding: 5%;
-  border-end-end-radius: 7px;
-  border-end-start-radius: 7px;
-  font-size: 110%;  
-  font-family: "Cardo", serif;
-  font-weight: 700;
-  font-style: normal;
 }
 
 .loanMainM {
@@ -423,6 +293,11 @@ a {
   height: 100vh;
   background: #D7D0C8;
 }
+.COLcontainer {
+  display: flex;
+  margin: 2% 10%;
+  box-shadow: rgba(0, 0, 0, 0.466) 1px 3px 5px;
+}
 .titleCOL {
   text-align: center;
   font-family: "Cardo", serif;
@@ -433,15 +308,57 @@ a {
   color: white;
   padding-top: 1em;
   text-shadow: black 5px 1px 6px;
+} 
+.imgCOL {
+  background: url(welcome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 40%;
 }
-.infoCOL {
+.infoCOLtext {
+  text-align: left;
   background-color: #A6BEAC;
-  text-align: justify;
-  width: 60%;
-  overflow: auto;
-  margin: 3% 25%;
-  padding: 3% 5%;
-  border-radius: 10px;
+  padding: 5% 10%;
+  font-size: 100%;
+}
+li {
+  list-style-type: lower-alpha;
+}
+@media screen and (max-width: 900px) {
+  .COLM {
+    height: 100vh;
+  }
+  .COLcontainer {
+    display: flex;
+    margin: 2% 10%;
+    box-shadow: rgba(0, 0, 0, 0.466) 1px 3px 5px;
+  }
+  .titleCOL {
+    text-align: center;
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 250%;
+    text-align: center;
+    color: white;
+    padding-top: 0;
+    text-shadow: black 5px 1px 6px;
+  } 
+  .imgCOL {
+    background: url(welcome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 40%;
+  }
+  .infoCOLtext {
+    text-align: left;
+    background-color: #A6BEAC;
+    font-size: 90%;
+    width: 110%;
+  }
+  li {
+    list-style-type: lower-alpha;
+  }
 }
 
 .contactF {
@@ -452,20 +369,44 @@ a {
   height: 100vh;
 }
 .infoCt {
-  display: grid;
-  grid-template-columns: 32% 32% 32%;
-  margin-left: 2em;
+  display: flex;
+  margin: 8% 0%;
+  padding: 3%;
+  column-gap: 20%;
   text-align: center;
   color: white;
   position: relative;
-  top: 70%;
-  font-size: 158%;
+  font-size: 130%;
   font-family: "Cardo", serif;
   font-weight: 400;
   font-style: normal;
   text-shadow: black 5px 3px 5px;
+  line-height: 0.8;
+  width: 100%;
 }
-
+.imgsG {
+  display: flex;
+  column-gap: 5%;
+  position: relative;
+  top: 5%;
+  margin-left: 10%;
+}
+.mainBld, .Gmap {
+  height: 25em;
+  border-radius: 10px;
+  width: 40%;
+}
+@media screen and (max-width: 900px){
+  .infoCt {
+    font-size: 110%;
+    margin-top: 15%;
+  }
+  .mainBld, .Gmap {
+    height: 20em;
+    border-radius: 10px;
+    width: 40%;
+  }
+}
 .bck2top {
   position: fixed;
   bottom: 20px;
