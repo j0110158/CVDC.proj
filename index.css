@@ -505,7 +505,7 @@ li {
 }
 .infoCt {
   display: flex;
-  margin: 8% 2%;
+  margin: 4.3% 4%;
   padding: 3%;
   column-gap: 20%;
   text-align: center;
@@ -517,10 +517,10 @@ li {
   font-style: normal;
   text-shadow: black 5px 3px 5px;
   line-height: 0.8;
-  width: 80%;
+  width: 70%;
 }
 
-.text {
+.ctTxtinfo {
  width: 100%;
 }
 
