@@ -381,8 +381,7 @@ a {
     height: 100vh;
 }
 .CPholder {
-    position: relative;
-    bottom: 10%;
+    margin: 10% 0%;
     display: flex;
 }
 .CPimg {
