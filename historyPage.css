@@ -596,27 +596,32 @@ a {
 
 /* CONTACT SECTION */
 .contactF {
-    background: url(sectionCol.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100vh;
-  }
-  .infoCt {
-    display: flex;
-    margin: 8% 5%;
-    padding: 3%;
-    column-gap: 15%;
-    text-align: center;
-    color: white;
-    position: relative;
-    font-size: 130%;
-    font-family: "Cardo", serif;
-    font-weight: 400;
-    font-style: normal;
-    text-shadow: black 5px 3px 5px;
-    line-height: 0.8;
-  }
+  background: url(sectionCol.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+.infoCt {
+  display: flex;
+  margin: 4.3% 4%;
+  padding: 3%;
+  column-gap: 20%;
+  text-align: center;
+  color: white;
+  position: relative;
+  font-size: 130%;
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: black 5px 3px 5px;
+  line-height: 0.8;
+  width: 70%;
+}
+
+.ctTxtinfo {
+ width: 100%;
+}
   .imgsG {
     display: flex;
     column-gap: 5%;
