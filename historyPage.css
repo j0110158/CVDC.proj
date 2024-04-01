@@ -603,19 +603,61 @@ a {
     height: 100vh;
   }
   .infoCt {
-    display: grid;
-    grid-template-columns: 32% 32% 32%;
-    margin-left: 2em;
+    display: flex;
+    margin: 8% 5%;
+    padding: 3%;
+    column-gap: 15%;
     text-align: center;
     color: white;
     position: relative;
-    top: 70%;
     font-size: 130%;
     font-family: "Cardo", serif;
     font-weight: 400;
     font-style: normal;
     text-shadow: black 5px 3px 5px;
+    line-height: 0.8;
   }
+  .imgsG {
+    display: flex;
+    column-gap: 5%;
+    position: relative;
+    top: 5%;
+    margin-left: 10%;
+  }
+  .mainBld, .Gmap {
+    height: 25em;
+    border-radius: 10px;
+    width: 40%;
+  }
+@media screen and (max-width: 900px) {
+    .contactF {
+        background: url(sectionCol.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100vh;
+      }
+      .infoCt {
+        display: flex;
+        margin: 10% 5%;
+        padding: 3%;
+        column-gap: 15%;
+        text-align: center;
+        color: white;
+        position: relative;
+        font-size: 110%;
+        font-family: "Cardo", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-shadow: black 5px 3px 5px;
+        line-height: 0.8;
+    }
+    .mainBld, .Gmap {
+        height: 20em;
+        border-radius: 10px;
+        width: 40%;
+      }
+}
 /* END OF CONTACT SECTION */
 
 .bck2top {
