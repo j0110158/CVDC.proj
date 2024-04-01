@@ -277,6 +277,9 @@ a {
     margin-left: 25%;
     background-color: #a6beacb3;
 }
+.GSCholder {
+    margin-top: 10%;
+}
 .GSCtitle {
     width: 50%;
     text-align: center;
@@ -381,7 +384,6 @@ a {
     height: 100vh;
 }
 .CPholder {
-    margin: 10% 0%;
     display: flex;
 }
 .CPimg {
