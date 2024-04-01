@@ -598,18 +598,18 @@ a {
  width: 100%;
 }
 
-  .imgsG {
-    display: flex;
-    column-gap: 5%;
-    position: relative;
-    top: 5%;
-    margin-left: 10%;
-  }
-  .mainBld, .Gmap {
-    height: 25em;
-    border-radius: 10px;
-    width: 40%;
-  }
+.imgsG {
+  display: flex;
+  column-gap: 5%;
+  position: relative;
+  top: 5%;
+  margin-left: 10%;
+}
+.mainBld, .Gmap {
+  height: 25em;
+  border-radius: 10px;
+  width: 40%;
+}
 @media screen and (max-width: 900px) {
     .contactF {
         background: url(sectionCol.png);
