@@ -200,7 +200,7 @@ body {
   border-radius: 10px;
   border: #A6BEAC solid 3px;
   background-color: #A6BEAC;
-  background-image: linear-gradient(to top, transparent, #a6beac), url('productiveIMG.jpg');
+  background-image: linear-gradient(to top, transparent, #a6beac), url('insurancePic.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 20%;
@@ -228,7 +228,7 @@ body {
   border-radius: 10px;
   border: #A6BEAC solid 3px;
   background-color: #A6BEAC;
-  background-image: linear-gradient(to top, transparent, #a6beac), url('productiveIMG.jpg');
+  background-image: linear-gradient(to top, transparent, #a6beac), url('depositPic.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 20%;
@@ -256,7 +256,7 @@ body {
   border-radius: 10px;
   border: #A6BEAC solid 3px;
   background-color: #A6BEAC;
-  background-image: linear-gradient(to top, transparent, #a6beac), url('productiveIMG.jpg');
+  background-image: linear-gradient(to top, transparent, #a6beac), url('tradingPic.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 20%;
@@ -284,7 +284,7 @@ body {
   border-radius: 10px;
   border: #A6BEAC solid 3px;
   background-color: #A6BEAC;
-  background-image: linear-gradient(to top, transparent, #a6beac), url('productiveIMG.jpg');
+  background-image: linear-gradient(to top, transparent, #a6beac), url('propertyPic.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 20%;
